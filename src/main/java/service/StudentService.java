@@ -17,7 +17,7 @@ public class StudentService {
         Student student = new Student();
         List<Student> studentList = new ArrayList<Student>();
         student.setStudentId("001");
-        student.setName("Ameet");
+        student.setName("AmeetK");
         student.setCourse("BCA");
         student.setStartDate("01/08/2023");
         student.setEndDate("08/01/2026");
