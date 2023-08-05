@@ -4,7 +4,6 @@ import model.Student;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Date;
 
 public class StudentService {
     public static void main(String... args){
@@ -21,8 +20,8 @@ public class StudentService {
         student.setCourse("BCA");
         student.setStartDate("01/08/2023");
         student.setEndDate("08/01/2026");
-        Student student1 = new Student();
         studentList.add(student);
+        Student student1 = new Student();
         student1.setStudentId("002");
         student1.setName("Abinesh");
         student1.setCourse("BCA");
@@ -30,7 +29,6 @@ public class StudentService {
         student1.setEndDate("08/01/2026");
         studentList.add(student1);
         Student student2 = new Student();
-        studentList.add(student);
         student2.setStudentId("003");
         student2.setName("Arun");
         student2.setCourse("BCA");
@@ -38,7 +36,6 @@ public class StudentService {
         student2.setEndDate("08/01/2026");
         studentList.add(student2);
     }
-
     public List<Student> getStudents(){
         return new ArrayList<Student>();
     }
